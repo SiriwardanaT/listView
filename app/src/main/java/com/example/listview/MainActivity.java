@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                                     System.out.println(cus.get(position).getId());
                                     intent.putExtra("id",cus.get(position).getId());
                                     intent.putExtra("name",cus.get(position).getName());
-                                    intent.putExtra("age",cus.get(position).getAge());
+                                    intent.putExtra("price",cus.get(position).getAge());
                                     intent.putExtra("des",cus.get(position).getDescription());
                                     startActivity(intent);
 

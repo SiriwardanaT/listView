@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#090909"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,35 +13,39 @@
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
-        android:visibility="gone"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/Add_customer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add customer" />
+        android:text="Add product"
+        android:textColor="#F4F1F1" />
 
     <EditText
         android:id="@+id/Cus_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#F1ECEC"
         android:ems="10"
-        android:hint="Customer Name"
+        android:hint="product name"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
         android:ems="10"
-        android:hint="age"
+        android:hint="price"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/des"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#F4F3F3"
         android:ems="10"
         android:hint="description"
         android:inputType="textPersonName" />
@@ -49,18 +54,21 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Button"
+        app:backgroundTint="#F57C00" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:text="TextView" />
+        android:text="TextView"
+        android:visibility="gone" />
 
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="525dp" />
+        android:layout_height="525dp"
+        android:background="#ECE7E7"
+        android:cacheColorHint="#FFFEFE" />
 
 </LinearLayout>
