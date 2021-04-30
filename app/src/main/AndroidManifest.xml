@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ListView">
+        <activity android:name=".setFactovry"></activity>
+        <activity android:name=".setFacftory"></activity>
         <activity android:name=".setFactory"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
