@@ -13,7 +13,12 @@
         <activity android:name=".setFactovry"></activity>
         <activity android:name=".setFacftory"></activity>
 
-        <activity android:name=".setFactorrhy"></activity>
+
+       
+        
+
+        
+<activity android:name=".setFactorrhy"></activity>
 
         <activity android:name=".setFactory"></activity>
         <activity android:name=".MainActivity">
@@ -26,3 +31,8 @@
     </application>
 
 </manifest>
+   
+
+
+
+
